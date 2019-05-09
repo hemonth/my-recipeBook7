@@ -1,0 +1,8 @@
+<div class="row">
+  <div class="col-md-5">
+    <app-recipe-list (myRecipes)="handleRecipes($event)"></app-recipe-list>
+  </div>
+  <div class="col-md-7">
+    <app-recipe-detail [recipes] = 'recipes' ></app-recipe-detail>
+  </div>
+</div>
